@@ -5,6 +5,7 @@ dir=${HOME}/bonsai-website/www
 user=nobody
 port=80
 
-quark -h $ip -d $dir -p $port -u $user -l \
-    >/tmp/quark_log \
-   2>/tmp/quark_err_log &
+while sleep 5 ; do
+    quark -h $ip -d $dir -p $port -u $user -l
+done >/tmp/quark_log \
+    2>/tmp/quark_err_log &
