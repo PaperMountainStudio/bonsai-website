@@ -1,0 +1,14 @@
+body {
+	max-width: 650px;
+	margin: 40px auto;
+	padding: 0 10px;
+	background: #332715;
+	color: #fbfb9b;
+	font-family: sans-serif;
+	font-size: 1em;
+	line-height: 1.6;
+}
+
+h1, h2, h3 {
+	line-height: 1.2;
+}
