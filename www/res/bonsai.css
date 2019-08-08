@@ -39,3 +39,17 @@ nav a {
 	font-weight: bold;
 	text-decoration: none;
 }
+
+/* logo */
+
+.logo {
+	font-weight: bold;
+}
+
+.logo .g {
+	color: #84e29d;
+}
+
+.logo .b {
+	color: #fdca72;
+}
