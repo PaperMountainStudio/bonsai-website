@@ -12,3 +12,30 @@ body {
 h1, h2, h3 {
 	line-height: 1.2;
 }
+
+a {
+	color: #fbfb9b !important;
+}
+
+p {
+	text-align: justify;
+}
+
+hr {
+	width: 90%;
+	height: 1px;
+	margin: 30px auto;
+	background: #fbfb9b;
+	border: none;
+}
+
+nav {
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+nav a {
+	color: #fbfb9b !important;
+	font-weight: bold;
+	text-decoration: none;
+}
