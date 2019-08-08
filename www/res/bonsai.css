@@ -21,6 +21,10 @@ p {
 	text-align: justify;
 }
 
+table {
+	width: 100%;
+}
+
 hr {
 	width: 90%;
 	height: 1px;
@@ -28,6 +32,8 @@ hr {
 	background: #fbfb9b;
 	border: none;
 }
+
+/* navigation */
 
 nav {
 	margin-bottom: 40px;
