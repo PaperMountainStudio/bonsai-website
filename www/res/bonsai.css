@@ -1,14 +1,15 @@
 body {
     margin: 1em auto;
     max-width: 40em;
-    padding: 0 .62em
+    padding: 0 .62em;
+    /* background: #f9f1f1; */
 	/* background: #332715; */
-    /* background: #F0EFD1; */
+    background: #F0EFD1;
 	color: #444;
     font: 1.2em/1.62 sans-serif;
     font-family: helvetica, arial,sans-serif;
 	line-height: 1.5;
-    zoom: 140%;
+    zoom: 130%;
 }
 hr {
 	width: 90%;
@@ -27,9 +28,13 @@ a {
 }
 p {
 	text-align: justify;
+    margin-top: 0;
+    margin-bottom: 0; 
 }
 table {
 	width: 100%;
+    margin-top: 0;
+    margin-bottom: 0; 
 }
 /* -*-*-*-*-* navigation -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
 nav {
