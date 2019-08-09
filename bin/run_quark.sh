@@ -7,5 +7,5 @@ port=80
 
 while sleep 5 ; do
     quark -h $ip -d $dir -p $port -u $user -l
-done >/tmp/quark_log \
-    2>/tmp/quark_err_log &
+done >>/tmp/quark_log \
+    2>>/tmp/quark_err_log &
