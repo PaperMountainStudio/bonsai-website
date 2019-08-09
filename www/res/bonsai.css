@@ -1,62 +1,62 @@
 body {
-	max-width: 650px;
-	margin: 40px auto;
-	padding: 0 10px;
-	background: #332715;
-	color: #fbfb9b;
-	font-family: sans-serif;
-	font-size: 1em;
-	line-height: 1.6;
+    margin: 1em auto;
+    max-width: 40em;
+    padding: 0 .62em
+	/* background: #332715; */
+    /* background: #F0EFD1; */
+	color: #444;
+    font: 1.2em/1.62 sans-serif;
+    font-family: helvetica, arial,sans-serif;
+	line-height: 1.5;
+    zoom: 140%;
 }
-
-h1, h2, h3 {
-	line-height: 1.2;
-}
-
-a {
-	color: #fbfb9b !important;
-}
-
-p {
-	text-align: justify;
-}
-
-table {
-	width: 100%;
-}
-
 hr {
 	width: 90%;
 	height: 1px;
 	margin: 30px auto;
 	background: #fbfb9b;
+	/* background: #F0EFD1; */
 	border: none;
 }
-
-/* navigation */
-
+h1, h2, h3 {
+	line-height: 1.2;
+}
+a {
+	/* color: #fbfb9b */
+	color: #444;
+}
+p {
+	text-align: justify;
+}
+table {
+	width: 100%;
+}
+/* -*-*-*-*-* navigation -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
 nav {
-	margin-bottom: 40px;
+	margin-bottom: 1em;
 	text-align: center;
 }
-
 nav a {
-	color: #fbfb9b !important;
+	/* color: #fbfb9b */
+	color: #444;
 	font-weight: bold;
 	text-decoration: none;
 }
-
-/* logo */
-
+/* -*-*-*-*-*- logo -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* */
+/* 'bonsai' message in logo */
 .logo {
 	font-weight: bold;
 	line-height: 1.3;
 }
 
+/* green text in logo */
 .logo .g {
-	color: #84e29d;
+	/* color: #84e29d;  brighter green */ 
+	color: #66AD57;
 }
 
+/* brown text in logo */
 .logo .b {
-	color: #fdca72;
+	/* color: #fdca72; */
+	color: #CFBA58;
 }

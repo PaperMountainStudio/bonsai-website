@@ -7,4 +7,4 @@ pkgs:
     ssh vps ${rsync} '/root/bonsai-pkgs/ /root/bonsai-website/www/pkgs'
 
 site:
-    ${rsync} ${HOME}/src/bonsai-website/ vps:/root/bonsai-website
+    ${rsync} --exclude '*pkgs' ${HOME}/src/bonsai-website/ vps:/root/bonsai-website
