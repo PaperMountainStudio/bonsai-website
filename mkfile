@@ -1,7 +1,10 @@
 rsync = rsync -rtvuh4c --progress --delete --exclude '*pastes' --exclude '*uploads'
 
-site: push
+all: site pkgs
+    
+
+pkgs:
     ssh vps ${rsync} '/root/bonsai-pkgs/ /root/bonsai-website/www/pkgs'
 
-push:
+site:
     ${rsync} ${HOME}/src/bonsai-website/ vps:/root/bonsai-website
