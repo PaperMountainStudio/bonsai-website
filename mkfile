@@ -14,4 +14,4 @@ releases:
 
 bkup:
     bkupdir=${HOME}/usr/backup/bonsai-website-backup
-    rsync -rtvuh4c --delete --progress ${vps}:bonsai-website $bkupdir/
+    rsync -rtvuh4c --delete --progress --exclude "*www/junk" ${vps}:bonsai-website $bkupdir/
