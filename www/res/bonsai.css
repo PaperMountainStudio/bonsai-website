@@ -4,7 +4,7 @@ body {
     padding: 0 .62em;
     /* background: #f9f1f1; */
 	/* background: #332715; */
-    background: #F6F3EB;
+    background: #D9D5BA;
 	color: #444;
     font: 1.2em/1.62 sans-serif;
     font-family: helvetica, arial,sans-serif;
@@ -16,7 +16,7 @@ hr {
 	height: 1px;
 	margin: 30px auto;
 	background: #fbfb9b;
-	/* background: #F6F3EB; */
+	/* background: #D9D5BA; */
 	border: none;
 }
 h1, h2, h3 {
